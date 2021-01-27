@@ -1,0 +1,42 @@
+# Schemes
+#scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+scheme: Gemini
+
+menu:
+  home: / || home  #首页
+  #about: /about/ || user  #关于
+  tags: /tags/ || tags  #标签
+  categories: /categories/ || th  #分类
+  archives: /archives/ || archive #归档
+  #schedule: /schedule/ || calendar  #日程表
+  #sitemap: /sitemap.xml || sitemap  #站点地图
+
+auto_excerpt:
+  enable: true
+  length: 150
+  save_scroll: true #自动保存每篇文章或页面上一次滚动的地方
+  excerpt_description: true #自动在首页对文章进行摘要描述作为前言文本
+
+github_banner:
+  enable: true  #开启
+  permalink: https://github.com/tomcc7 #你的GitHub地址
+  title: Follow me on GitHub
+
+busuanzi_count:      # 页面阅读统计
+  enable: true    #设true 开启
+  total_visitors: true     #总阅读人数 uv数
+  total_visitors_icon: user  #阅读总人数的图标
+  total_views: true  #总阅读次数 pv数
+  total_views_icon: eye  #阅读总次数的图标
+  post_views: true #开启内容阅读次数
+  post_views_icon: eye #内容页阅读数的图标
+
+codeblock:
+  highlight_theme: normal  
+#样式主题 normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  copy_button:  #复制按钮
+    enable: true  #开启
+    show_result: true  #复制成功提示
+    style: flat  #代码框样式  default | flat | mac
