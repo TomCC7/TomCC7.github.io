@@ -1,6 +1,6 @@
 ---
-title: BashScripts Notes
-categories: notes
+title: Bash Scripts Notes
+categories: references
 layout: post
 ---
 
@@ -8,7 +8,7 @@ layout: post
 
 # Commands
 
-### Screen
+## Screen
 
 ```bash
 screen -S (name)#创建名为name的screen

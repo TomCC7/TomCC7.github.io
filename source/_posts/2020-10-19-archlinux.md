@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "ArchLinux Configuration"
+title:  "Arch Linux Configurations"
 categories: configurations
 ---
-
-[toc]
 
 # Operations
 
