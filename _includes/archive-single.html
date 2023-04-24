@@ -38,6 +38,9 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
+      {% if post.authors %}
+      <span class="archive__subtitle"> {{post.authors}} </span>
+      {% endif %}
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
@@ -58,6 +61,10 @@
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% endif %}
+
+    {% if post.cover %}
+      <img src="{{ post.cover | prepend: '/images/' | prepend: base_path}}" alt="cover">
     {% endif %}
 
   </article>

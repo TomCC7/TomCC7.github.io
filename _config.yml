@@ -83,7 +83,7 @@ author:
   name             : "Che Chen | 陈澈"
   avatar           : "cc23.jpg"
   bio              : "Learning Robotics"
-  location         : "Ann Arbor"
+  location         : "Ann Arbor, MI"
   employer         :
   pubmed           :
   googlescholar    :
@@ -180,6 +180,9 @@ collections:
   #   permalink: /:collection/:path/
   publications:
     output: true
+    permalink: /:collection/:path/
+  projects:
+    output: false
     permalink: /:collection/:path/
   # portfolio:
   #   output: true

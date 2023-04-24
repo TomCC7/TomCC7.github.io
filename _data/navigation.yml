@@ -1,7 +1,16 @@
 # main links links
 main:
+  - title: "Projects"
+    url: /projects/
+
   - title: "Publications"
     url: /publications/
+
+  - title: "CV"
+    url: /files/resume.pdf
+
+  - title: "Photos"
+    url: https://500px.com/p/playercc7?view=photos
 
   # - title: "Talks"
   #   url: /talks/
@@ -14,12 +23,6 @@ main:
 
   # - title: "Blog Posts"
   #   url: /year-archive/
-
-  - title: "CV"
-    url: /files/resume.pdf
-
-  - title: "Photos"
-    url: https://500px.com/p/playercc7?view=photos
 
   # - title: "Guide"
   #   url: /markdown/
