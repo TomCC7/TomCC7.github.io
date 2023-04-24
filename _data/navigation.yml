@@ -18,5 +18,8 @@ main:
   - title: "CV"
     url: /files/resume.pdf
 
+  - title: "Photos"
+    url: https://500px.com/p/playercc7?view=photos
+
   # - title: "Guide"
   #   url: /markdown/
