@@ -23,4 +23,4 @@ Vasudevan](http://www.roahmlab.com/ram-personal).
 
 I have a broad interest in extracurricular activities as well, such as [FPV
 Drone](https://www.youtube.com/watch?v=wMOlR1qNMuk&ab_channel=JohnnyFPV),
-Skiing, and [Photography](https://500px.com/p/playercc7?view=photos).
+Skiing, and [Photography](https://gallery.player7.cc/).
