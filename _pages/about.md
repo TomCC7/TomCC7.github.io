@@ -10,11 +10,11 @@ redirect_from:
 
 Hello!
 
-My name is Che Chen (C.C). I'm a senior student pursuing a dual degree in
-Computer Engineering (CE) from the University of Michigan, Ann Arbor, MI, USA,
-and Electrical and Computer Engineering (ECE) from Shanghai Jiaotong University,
-Shanghai, China. I am excited to continue my study at UMich as a master's student
-in **Robotics**.
+My name is Che Chen (C.C). I'm a first year master student pursuing a Robotics
+degree from the University of Michigan, Ann Arbor, MI. I hold a dual B.S. degree
+in Computer Engineering (CE) from the University of Michigan, Ann Arbor, MI,
+USA, and Electrical and Computer Engineering (ECE) from Shanghai Jiaotong
+University, Shanghai, China.
 
 I'm greedily interested in many problems in Robotics, including robot
 perception, reasoning, planning and control. I'm fortunate to be able to explore
