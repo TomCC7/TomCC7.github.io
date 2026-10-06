@@ -6,11 +6,13 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "CV"
-    url: /files/resume.pdf
+  # Hidden for now; /cv/ and the original PDF files remain available.
+  # - title: "CV"
+  #   url: /cv/
 
-  - title: "Photos"
-    url: https://gallery.player7.cc/
+  # Photography entry preserved here for a later return.
+  # - title: "Photos"
+  #   url: https://gallery.player7.cc/
 
   # - title: "Talks"
   #   url: /talks/

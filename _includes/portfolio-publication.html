@@ -1,0 +1,9 @@
+{% assign paper = include.paper %}
+<article class="paper">
+  <p class="eyebrow">{{ paper.date | date: '%Y' }} / {{ paper.venue }}</p>
+  <div>
+    <h3><a href="{{ paper.link }}">{{ paper.title }}</a></h3>
+    <p class="credits">{{ paper.authors }}</p>
+    <div class="paper-links"><a href="{{ paper.paperurl }}">Paper ↗</a><a href="{{ paper.link }}">Project ↗</a><a href="{{ paper.url | relative_url }}">Abstract</a></div>
+  </div>
+</article>

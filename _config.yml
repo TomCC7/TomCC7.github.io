@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Che Chen"
 title_separator          : "-"
 name                     : &name "Che Chen"
-description              : &description "personal description"
+description              : &description "Che Chen — robot learning and the software that brings models to real robots. Projects, research and open source."
 url                      : https://tomcc7.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TomCC7/TomCC7.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Che Chen | 陈澈"
   avatar           : "cc23.jpg"
-  bio              : "Learning Robotics"
-  location         : "Ann Arbor, MI"
+  bio              : "Robotics"
+  location         : "San Francisco, CA"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "cctom@umich.edu"
+  email            : "cc7@duck.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -1,16 +1,10 @@
 ---
-layout: archive
+layout: portfolio
 title: "Publications"
 permalink: /publications/
-author_profile: true
+excerpt: "Research on safe motion planning and control for robotic manipulators."
+author_profile: false
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="lede">Research on safe motion planning and control for robotic manipulators.</p>
+{% assign papers = site.publications | sort: 'date' | reverse %}{% for paper in papers %}{% include portfolio-publication.html paper=paper %}{% endfor %}

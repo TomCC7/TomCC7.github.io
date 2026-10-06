@@ -1,0 +1,15 @@
+{% assign project = include.project %}
+{% assign cover = project.cover | remove_first: '/' %}
+<article class="project-card">
+  {% if project.cover %}<a class="project-image" href="{{ project.link }}" tabindex="-1" aria-hidden="true"><img src="{{ '/images/' | append: cover | relative_url }}" alt="" loading="lazy" width="640" height="400"></a>{% endif %}
+  <div class="card-content">
+    <p class="eyebrow">{% if project.era == 'portfolio' %}{{ project.kind }}{% else %}{{ project.date | date: '%Y' }} / Robotics project{% endif %}</p>
+    <h3><a href="{{ project.link }}">{{ project.title }}</a></h3>
+    <p>{{ project.excerpt | strip_html }}</p>
+    {% if project.contribution %}<p class="contribution"><span>My contribution</span> {{ project.contribution }}</p>{% endif %}
+    {% if project.contribution %}<div class="credits">{{ project.authors }}</div>{% endif %}
+    {% if project.media_credit %}<p class="media-credit">{{ project.media_credit }}</p>{% endif %}
+    <a class="text-link" href="{{ project.link }}">Explore project <span aria-hidden="true">↗</span></a>
+    {% if project.notes_url %}<a class="text-link secondary-link" href="{{ project.notes_url | relative_url }}">Contribution notes →</a>{% endif %}
+  </div>
+</article>

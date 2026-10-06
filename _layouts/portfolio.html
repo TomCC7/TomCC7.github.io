@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.url != '/' %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="{{ '/' | relative_url }}">Che Chen</a>
+      <nav aria-label="Main navigation">
+        {% for item in site.data.navigation.main %}
+          {% if item.url contains '://' %}{% assign nav_url = item.url %}{% else %}{% assign nav_url = item.url | relative_url %}{% endif %}
+          <a href="{{ nav_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+    <main id="main" class="wrap" tabindex="-1">
+      {% unless page.url == '/' %}<header class="section-heading"><p class="eyebrow">Robotics / {{ page.title }}</p><h1>{{ page.title }}</h1></header>{% endunless %}
+      {{ content }}
+    </main>
+    <footer class="site-footer wrap">
+      <p>Che Chen · Robotics &amp; beyond</p>
+      <div><a href="https://github.com/TomCC7">GitHub</a><a href="https://www.linkedin.com/in/che-chen-275a10230/">LinkedIn</a><a href="{{ '/about-history/' | relative_url }}">Earlier bio</a></div>
+    </footer>
+  </body>
+</html>
