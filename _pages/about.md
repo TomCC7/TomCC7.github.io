@@ -17,7 +17,6 @@ redirect_from:
     <p>I work across robot learning and robotics software.</p>
     <div class="actions"><a class="button primary" href="{{ '/projects/' | relative_url }}">Explore projects</a><a class="button" href="https://github.com/TomCC7">GitHub ↗</a></div>
   </div>
-  <img src="{{ '/images/cc23.jpg' | relative_url }}" alt="Che Chen" width="220" height="260">
 </section>
 
 <section class="section" aria-labelledby="work-title">
